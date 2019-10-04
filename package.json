@@ -1,0 +1,27 @@
+{
+  "name": "@limma/apollo-datasource-rest",
+  "version": "0.2.4-alpha.0",
+  "author": "gabriel@gabriellima.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/limma/apollo-server/tree/master/packages/apollo-datasource-rest"
+  },
+  "homepage": "https://github.com/limma/apollo-server#readme",
+  "bugs": {
+    "url": "https://github.com/limma/apollo-server/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "apollo-datasource": "file:../apollo-datasource",
+    "apollo-server-caching": "file:../apollo-server-caching",
+    "apollo-server-env": "file:../apollo-server-env",
+    "apollo-server-errors": "file:../apollo-server-errors",
+    "http-cache-semantics": "^4.0.0"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
