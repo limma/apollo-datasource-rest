@@ -1,6 +1,6 @@
 {
   "name": "@limma/apollo-datasource-rest",
-  "version": "0.2.4-alpha.1",
+  "version": "0.2.4-alpha.2",
   "author": "gabriel@gabriellima.com",
   "license": "MIT",
   "repository": {
@@ -23,5 +23,7 @@
     "apollo-server-errors": "2.2.0",
     "http-cache-semantics": "^4.0.0"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
